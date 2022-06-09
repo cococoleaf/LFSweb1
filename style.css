@@ -1,0 +1,66 @@
+body{
+    background-color: #eeefed;
+}
+
+h1{
+    text-align: center;
+    font-family: Lava kannada;
+}
+
+#nav{
+    list-style: none;
+    overflow: hidden;
+}
+
+#nav li{
+    width: 140px;
+    text-align: center;
+    float: left;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+p{
+    font-family: yumincho;
+}
+
+.imgbox{
+    display:flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    margin-left: 50px;
+   }
+
+  .textfv{
+      margin-right: auto;
+      margin-left: 50px;
+      margin-top: 200px;
+  } 
+
+
+
+
+
+
+/*ここまで全てに共通のスタイル＊/
+
+/*ここからスマホ用のスタイル＊/
+
+  @media all and (max-width:480px){
+
+
+}
+
+
+
+
+
