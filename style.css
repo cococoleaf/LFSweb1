@@ -35,7 +35,7 @@ h1 {
     font-family: Lava kannada;
 }
 
-.header1{
+.header1 {
     display: flex;
 }
 
@@ -49,187 +49,187 @@ h1 {
 
 img {
     width: 300px;
-    margin-left: 50px;
     margin-top: 40px;
 }
 
 
 
-.textfv{
+.textfv {
     margin-top: 400px;
     margin-left: 50px;
     float: left;
     font-size: 28px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 
 }
 
-.maru1{
+.maru1 {
     text-align: right;
     margin-top: 100px;
 }
 
 
 
-.concept-title{
+.concept-title {
     font-size: 28px;
     text-align: center;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
     color: #958818;
 
 }
 
-.concept-text{
+.concept-text {
     font-size: 18px;
     text-align: center;
     margin-top: 50px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 
 }
 
-.title-1{
-    background-image: url(images/image7.png) ;
+.title-1 {
+    background-image: url(images/image7.png);
     height: 400px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.heading{
+.heading {
     font-size: 40px;
     text-align: center;
     padding-top: 100px;
-   
+
 }
 
-.subheading{
+.subheading {
     font-size: 20px;
     text-align: center;
 }
 
-.text-box{
+.text-box {
     background-image: url(images/image8.png);
     background-position: center;
     width: 1000px;
-    margin-left: 250px;
+    margin: auto;
     transform: translateY(-150px);
     padding-bottom: 100px;
     padding-top: 50px;
 }
 
-.title{
+.title {
     font-size: 28px;
     font-family: yumincho;
     color: #557d3c;
     text-align: center;
     margin: 30px;
     letter-spacing: 0.2em;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.text{
+.text {
     font-size: 18px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
     color: #333;
     text-align: center;
     letter-spacing: 0.2em;
     padding: 10 200 10 200;
 }
 
-.image6{
+.image6 {
     margin: 80px;
     text-align: center;
 }
 
-.nutrients-1{
+.nutrients-1 {
     font-size: 16px;
-    float: left;
+    display: inline-block;
     color: #958818;
 }
 
-.nutrients-2{
+.nutrients-2 {
     font-size: 14px;
-    margin-left: 250px;
-    font-family: YuMincho,serif;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: YuMincho, serif;
 }
 
-.nutrients-3{
+.nutrients-3 {
     font-size: 24px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.nutrients-4{
+.nutrients-4 {
     font-size: 18px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.protein{
+.protein {
     margin: 50px 150px 50px 150px;
 }
 
-.lac{
+.lac {
     margin: 50px 150px 50px 150px;
 }
 
-.vam{
+.vam {
     margin: 50px 150px 50px 150px;
 }
 
-.title-2{
-    background-image: url(images/images9.png) ;
+.title-2 {
+    background-image: url(images/images9.png);
     height: 400px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.point-1{
+.point-1 {
     font-size: 18px;
     color: #557d3c;
     font-family: Lava kannada;
 }
 
-.point-2{
+.point-2 {
     font-size: 24px;
     color: #333;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.point-3{
+.point-3 {
     font-size: 18px;
     color: #333;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.point2{
+.point2 {
     text-align: right;
 }
 
-.title-3{
+.title-3 {
     background-image: url(images/image10.png);
     height: 400px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.title-4{
+.title-4 {
     background-image: url(images/image11.png);
     height: 400px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.tips-title{
+.tips-title {
     color: #958818;
     font-size: 20px;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
-.convini{
+.convini {
     display: flex;
     margin-top: 50px;
 }
 
-.convini-text{
+.convini-text {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     display: inline;
-    font-family: YuMincho,serif;
+    font-family: YuMincho, serif;
 }
 
 
