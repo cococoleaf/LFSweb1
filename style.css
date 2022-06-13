@@ -260,6 +260,15 @@ img {
     font-family: YuMincho, serif;
 }
 
+.rcp {
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+}
+
+
 .title-4 {
     background-image: url(images/image11.png);
     height: 400px;
