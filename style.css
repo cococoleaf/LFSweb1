@@ -106,7 +106,6 @@ img {
 
 .text-box {
     background-image: url(images/image8.png);
-    background-position: center;
     width: 1000px;
     margin: auto;
     transform: translateY(-150px);
@@ -179,26 +178,80 @@ img {
     font-family: YuMincho, serif;
 }
 
+.breakfast {
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.example1 {
+    text-align: center;
+}
+
+.dinner {
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.p1 {
+    display: flex;
+}
+
+.p2 {
+    display: flex;
+}
+
+.p3 {
+    display: flex;
+}
+
+
+
 .point-1 {
     font-size: 18px;
     color: #557d3c;
     font-family: Lava kannada;
+    text-align: left;
 }
 
 .point-2 {
     font-size: 24px;
     color: #333;
     font-family: YuMincho, serif;
+    text-align: left;
 }
 
 .point-3 {
     font-size: 18px;
     color: #333;
     font-family: YuMincho, serif;
+    text-align: left;
+}
+
+.p1-pic {
+    margin-left: 130px;
+}
+
+.p2-pic {
+    margin-left: 100px;
+}
+
+.p3-pic {
+    margin-left: 130px;
+}
+
+.point1 {
+    margin-left: 100px;
 }
 
 .point2 {
     text-align: right;
+    margin-left: 50px;
+}
+
+.point3 {
+    margin-left: 100px;
 }
 
 .title-3 {
@@ -231,6 +284,7 @@ img {
     display: inline;
     font-family: YuMincho, serif;
 }
+
 
 
 
