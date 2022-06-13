@@ -207,6 +207,10 @@ img {
     text-align: center;
 }
 
+.example-text {
+    font-family: Lava kannada;
+}
+
 .dinner {
     float: left;
     margin-right: 50px;
