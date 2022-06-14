@@ -48,6 +48,10 @@ h1 {
     margin-left: 100px;
 }
 
+.imgbox2 {
+    width: 100px;
+}
+
 img {
     width: 300px;
 }
@@ -153,7 +157,9 @@ img {
 .image6 {
     text-align: center;
     width: 500px;
-    margin-left: 200px;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .nutrients-1 {
