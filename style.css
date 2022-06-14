@@ -291,6 +291,11 @@ img {
 
 .rcp {
     text-align: center;
+    display: flex;
+}
+
+.rcp-1 {
+    display: flex;
 }
 
 
@@ -322,13 +327,18 @@ img {
 }
 
 .rcp-1-pic {
-    margin-left: 100px;
+    margin-left: 150px;
+    align-self: flex-start;
 }
 
 .text-zairyo {
     color: #958818;
     font-size: 20px;
     font-family: YuMincho, serif;
+}
+
+.zairyo-main {
+    margin-left: 150px;
 }
 
 
