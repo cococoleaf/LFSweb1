@@ -1,451 +1,901 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #eeefed;
-    line-height: 300%;
-    letter-spacing: 0.2em;
-}
-
-h1 {
-    text-align: center;
-    font-family: Lava kannada;
-    margin-top: 50px;
-}
-
-#nav {
-    list-style: none;
-    overflow: hidden;
-    margin-top: 45px;
-}
-
-#nav li {
-    width: 150px;
-    text-align: center;
-    float: left;
-}
-
-#nav li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-family: Lava kannada;
-}
-
-.header1 {
-    display: flex;
-}
-
-
-
-
-.imgbox {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 100px;
-}
-
-.fv {
-    width: 250px;
-}
-
-
-.nomal {
-    width: 300px;
-}
-
-.fv {
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-
-.textfv {
-    margin-top: 270px;
-    margin-left: 80px;
-    float: left;
-    font-size: 28px;
-    font-family: YuMincho, serif;
-
-}
-
-.maru1 {
-    text-align: right;
-    margin-top: 50px;
-}
-
-.maru2 {
-    text-align: left;
-}
-
-.dish {
-    width: 300px;
-}
-
-
-.concept-title {
-    font-size: 26px;
-    text-align: center;
-    font-family: YuMincho, serif;
-    color: #958818;
-
-}
-
-.concept-text {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 50px;
-    font-family: YuMincho, serif;
-
-}
-
-.title-1 {
-    background-image: url(images/image7.png);
-    height: 400px;
-    font-family: YuMincho, serif;
-}
-
-.heading {
-    font-size: 40px;
-    text-align: center;
-    padding-top: 100px;
-
-}
-
-.subheading {
-    font-size: 20px;
-    text-align: center;
-}
-
-.text-box {
-    background-image: url(images/image8.png);
-    width: 1000px;
-    margin: auto;
-    transform: translateY(-150px);
-    padding-bottom: 100px;
-    padding-top: 50px;
-}
-
-.text-box2 {
-    margin-top: 200px;
-    background-image: url(images/image8.png);
-    width: 1000px;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    margin: auto;
-}
-
-
-
-
-.title {
-    font-size: 28px;
-    font-family: yumincho;
-    color: #557d3c;
-    text-align: center;
-    margin: 30px;
-    letter-spacing: 0.2em;
-    font-family: YuMincho, serif;
-}
-
-.text {
-    font-size: 16px;
-    font-family: YuMincho, serif;
-    color: #333;
-    text-align: center;
-    letter-spacing: 0.2em;
-    padding: 10 200 10 200;
-}
-
-.image6 {
-    text-align: center;
-    width: 500px;
-    display: block;
-    margin: 50px auto;
-}
-
-.nutrients-1 {
-    font-size: 16px;
-    display: inline-block;
-    color: #958818;
-}
-
-.nutrients-2 {
-    font-size: 14px;
-    display: inline-block;
-    margin-left: 30px;
-    font-family: YuMincho, serif;
-}
-
-.nutrients-3 {
-    font-size: 24px;
-    font-family: YuMincho, serif;
-}
-
-.nutrients-4 {
-    font-size: 18px;
-    font-family: YuMincho, serif;
-}
-
-.protein {
-    margin: 50px 150px 50px 150px;
-}
-
-.lac {
-    margin: 50px 150px 50px 150px;
-}
-
-.vam {
-    margin: 50px 150px 50px 150px;
-}
-
-.title-2 {
-    background-image: url(images/images9.png);
-    height: 400px;
-    font-family: YuMincho, serif;
-}
-
-.breakfast {
-    float: left;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.example1 {
-    margin: 40px auto;
-    justify-content: space-between;
-    width: 80%;
-    text-align: center;
-}
-
-.example-text {
-    font-family: Lava kannada;
-}
-
-.dinner {
-    float: left;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.p1 {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.p2 {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.p3 {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 80%;
-}
-
-
-
-.point-1 {
-    font-size: 16px;
-    color: #557d3c;
-    font-family: Lava kannada;
-    text-align: left;
-}
-
-.point-2 {
-    font-size: 24px;
-    color: #333;
-    font-family: YuMincho, serif;
-    text-align: left;
-}
-
-.point-3 {
-    font-size: 14px;
-    color: #333;
-    font-family: YuMincho, serif;
-    text-align: left;
-}
-
-.p1-pic {
-    padding: auto;
-    align-self: flex-start;
-    width: 45%;
-}
-
-.p2-pic {
-    padding: auto;
-    align-self: flex-start;
-    width: 45%;
-}
-
-.p3-pic {
-    padding: auto;
-    align-self: flex-start;
-    width: 45%;
-}
-
-
-
-.point1 {
-    padding: auto;
-    justify-content: space-between;
-    width: 45%;
-}
-
-.point2 {
-    text-align: right;
-    padding: auto;
-    justify-content: space-between;
-    width: 45%;
-
-}
-
-.point3 {
-    padding: auto;
-    justify-content: space-between;
-    width: 45%;
-}
-
-.title-3 {
-    background-image: url(images/image10.png);
-    height: 400px;
-    font-family: YuMincho, serif;
-}
-
-.rcp {
-    text-align: center;
-    display: flex;
-    margin-left: 200px;
-    margin-top: 50px;
-}
-
-.rcp-1 {
-    display: flex;
-}
-
-
-
-
-.title-4 {
-    background-image: url(images/image11.png);
-    height: 400px;
-    font-family: YuMincho, serif;
-}
-
-.tips-title {
-    color: #958818;
-    font-size: 20px;
-    font-family: YuMincho, serif;
-}
-
-.tips-text {
-    font-size: 16px;
-    font-family: YuMincho, serif;
-    color: #333;
-}
-
-.convini {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.convini-text {
-    margin-left: 50px;
-    font-family: YuMincho, serif;
-}
-
-.convini-pic {
-    padding: auto;
-    align-self: flex-start;
-    width: 45%;
-
-}
-
-.rcp-1-pic {
-    margin-left: 150px;
-    align-self: flex-start;
-    width: 300px;
-}
-
-.text-zairyo {
-    color: #958818;
-    font-size: 20px;
-    font-family: YuMincho, serif;
-}
-
-.zairyo-main {
-    margin-left: 150px;
-}
-
-
-.zairyo {
-    font-size: 14px;
-    font-family: YuMincho, serif;
-
-}
-
-.houhou-number {
-    color: #958818;
-    font-size: 30px;
-    font-family: YuMincho, serif;
-    margin-top: 50px;
-}
-
-.houhou-text {
-    font-size: 16px;
-    font-family: YuMincho, serif;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.houhou-1 {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 90%;
-}
-
-.houhou-2 {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 90%;
-}
-
-.houhou-3 {
-    display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    width: 90%;
-}
-
-.houhou-pic {
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 300px;
-    align-self: flex-start;
-}
-
-.footer {
-    text-align: center;
-}
-
-/*ここまで全てに共通のスタイル＊/
-
-/*ここからスマホ用のスタイル＊/
-
-  @media all and (max-width:480px){
-
+@media screen and (min-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #eeefed;
+        line-height: 300%;
+        letter-spacing: 0.2em;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Lava kannada;
+        margin-top: 50px;
+    }
+
+    #nav {
+        list-style: none;
+        overflow: hidden;
+        margin-top: 45px;
+    }
+
+    #nav li {
+        width: 150px;
+        text-align: center;
+        float: left;
+    }
+
+    #nav li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-family: Lava kannada;
+    }
+
+    .header1 {
+        display: flex;
+    }
+
+
+
+
+    .imgbox {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 100px;
+    }
+
+    .fv1 {
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .fv2 {
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .fv3 {
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+
+    .nomal {
+        width: 300px;
+    }
+
+    .fv {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+
+    .textfv {
+        margin-top: 270px;
+        margin-left: 80px;
+        float: left;
+        font-size: 28px;
+        font-family: YuMincho, serif;
+
+    }
+
+    .maru1 {
+        text-align: right;
+        margin-top: 50px;
+    }
+
+    .maru2 {
+        text-align: left;
+    }
+
+    .dish {
+        width: 300px;
+    }
+
+
+    .concept-title {
+        font-size: 26px;
+        text-align: center;
+        font-family: YuMincho, serif;
+        color: #958818;
+
+    }
+
+    .concept-text {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 50px;
+        font-family: YuMincho, serif;
+
+    }
+
+    .title-1 {
+        background-image: url(images/image7.png);
+        height: 400px;
+        font-family: YuMincho, serif;
+    }
+
+    .heading {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 100px;
+
+    }
+
+    .subheading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-box {
+        background-image: url(images/image8.png);
+        width: 1000px;
+        margin: auto;
+        transform: translateY(-150px);
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .text-box2 {
+        margin-top: 200px;
+        background-image: url(images/image8.png);
+        width: 1000px;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        margin: auto;
+    }
+
+
+
+
+    .title {
+        font-size: 28px;
+        font-family: yumincho;
+        color: #557d3c;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 0.2em;
+        font-family: YuMincho, serif;
+    }
+
+    .text {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        color: #333;
+        text-align: center;
+        letter-spacing: 0.2em;
+        padding: 10 200 10 200;
+    }
+
+    .image6 {
+        text-align: center;
+        width: 500px;
+        display: block;
+        margin: 50px auto;
+    }
+
+    .nutrients-1 {
+        font-size: 16px;
+        display: inline-block;
+        color: #958818;
+    }
+
+    .nutrients-2 {
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 30px;
+        font-family: YuMincho, serif;
+    }
+
+    .nutrients-3 {
+        font-size: 24px;
+        font-family: YuMincho, serif;
+    }
+
+    .nutrients-4 {
+        font-size: 18px;
+        font-family: YuMincho, serif;
+    }
+
+    .protein {
+        margin: 50px 150px 50px 150px;
+    }
+
+    .lac {
+        margin: 50px 150px 50px 150px;
+    }
+
+    .vam {
+        margin: 50px 150px 50px 150px;
+    }
+
+    .title-2 {
+        background-image: url(images/images9.png);
+        height: 400px;
+        font-family: YuMincho, serif;
+    }
+
+    .breakfast {
+        float: left;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .example1 {
+        margin: 40px auto;
+        justify-content: space-between;
+        width: 80%;
+        text-align: center;
+    }
+
+    .example-text {
+        font-family: Lava kannada;
+    }
+
+    .dinner {
+        float: left;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .p1 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .p2 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .p3 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+
+
+    .point-1 {
+        font-size: 16px;
+        color: #557d3c;
+        font-family: Lava kannada;
+        text-align: left;
+    }
+
+    .point-2 {
+        font-size: 24px;
+        color: #333;
+        font-family: YuMincho, serif;
+        text-align: left;
+    }
+
+    .point-3 {
+        font-size: 14px;
+        color: #333;
+        font-family: YuMincho, serif;
+        text-align: left;
+    }
+
+    .p1-pic {
+        padding: auto;
+        align-self: flex-start;
+        width: 45%;
+    }
+
+    .p2-pic {
+        padding: auto;
+        align-self: flex-start;
+        width: 45%;
+    }
+
+    .p3-pic {
+        padding: auto;
+        align-self: flex-start;
+        width: 45%;
+    }
+
+
+
+    .point1 {
+        padding: auto;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .point2 {
+        text-align: right;
+        padding: auto;
+        justify-content: space-between;
+        width: 45%;
+
+    }
+
+    .point3 {
+        padding: auto;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .title-3 {
+        background-image: url(images/image10.png);
+        height: 400px;
+        font-family: YuMincho, serif;
+    }
+
+    .rcp {
+        text-align: center;
+        display: flex;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+
+    .rcp-1 {
+        display: flex;
+        margin-right: 30px;
+    }
+
+    .rcp.rcp {
+        width: 200px;
+    }
+
+
+
+    .title-4 {
+        background-image: url(images/image11.png);
+        height: 400px;
+        font-family: YuMincho, serif;
+    }
+
+    .tips-title {
+        color: #958818;
+        font-size: 20px;
+        font-family: YuMincho, serif;
+    }
+
+    .tips-text {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        color: #333;
+    }
+
+    .convini {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .convini-text {
+        margin-left: 50px;
+        font-family: YuMincho, serif;
+    }
+
+    .convini-pic {
+        padding: auto;
+        align-self: flex-start;
+        width: 45%;
+
+    }
+
+    .rcp-1-pic {
+        margin-left: 150px;
+        align-self: flex-start;
+        width: 300px;
+    }
+
+    .text-zairyo {
+        color: #958818;
+        font-size: 20px;
+        font-family: YuMincho, serif;
+    }
+
+    .zairyo-main {
+        margin-left: 150px;
+    }
+
+
+    .zairyo {
+        font-size: 14px;
+        font-family: YuMincho, serif;
+
+    }
+
+    .houhou-number {
+        color: #958818;
+        font-size: 30px;
+        font-family: YuMincho, serif;
+        margin-top: 50px;
+    }
+
+    .houhou-text {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .houhou-1 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .houhou-2 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .houhou-3 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .houhou-pic {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 300px;
+        align-self: flex-start;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:812px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #eeefed;
+        line-height: 200%;
+        letter-spacing: 0.2em;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Lava kannada;
+        margin-top: 50px;
+    }
+
+    #nav {
+        list-style: none;
+        overflow: hidden;
+        margin-top: 45px;
+    }
+
+    #nav li {
+        width: 150px;
+        text-align: center;
+        float: left;
+    }
+
+    #nav li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-family: Lava kannada;
+    }
+
+    .header1 {
+        display: flex;
+    }
+
+
+    .imgbox {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 100px;
+    }
+
+    .fv1 {
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    .fv2 {
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    .fv3 {
+        display: none;
+    }
+
+    .textfv {
+        margin-left: 20px;
+        float: left;
+        font-size: 18px;
+        font-family: YuMincho, serif;
+        writing-mode: vertical-rl;
+
+    }
+
+    .maru1 {
+        text-align: right;
+        margin-top: 50px;
+    }
+
+    .maru2 {
+        text-align: left;
+    }
+
+    .dish {
+        display: none;
+    }
+
+    .concept-title {
+        font-size: 20px;
+        text-align: center;
+        font-family: YuMincho, serif;
+        color: #958818;
+
+    }
+
+    .concept-text {
+        font-size: 16px;
+        text-align: center;
+        margin: 50px 50px;
+        font-family: YuMincho, serif;
+
+    }
+
+    .title-1 {
+        background-image: url(images/image7.png);
+        height: 200px;
+        width: auto;
+        font-family: YuMincho, serif;
+    }
+
+    .heading {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+
+    .subheading {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .text-box {
+        background-image: url(images/image8.png);
+        width: 320px;
+        margin: auto;
+        transform: translateY(-60px);
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .text-box2 {
+        margin-top: 200px;
+        background-image: url(images/image8.png);
+        width: 1000px;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        margin: auto;
+    }
+
+
+
+
+    .title {
+        font-size: 18px;
+        font-family: yumincho;
+        color: #557d3c;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 0.2em;
+        font-family: YuMincho, serif;
+    }
+
+    .text {
+        font-size: 15px;
+        font-family: YuMincho, serif;
+        color: #333;
+        text-align: center;
+        letter-spacing: 0.2em;
+        padding: 10 200 10 200;
+        margin: 10px 20px 10px 20px;
+    }
+
+    .image6 {
+        text-align: center;
+        width: 200px;
+        display: block;
+        margin: 50px auto;
+    }
+
+    .nutrients-1 {
+        font-size: 16px;
+        color: #958818;
+        font-family: Lava kannada;
+    }
+
+    .nutrients-2 {
+        font-size: 12px;
+        color: #333;
+        font-family: YuMincho, serif;
+        margin-bottom: 20px;
+    }
+
+    .nutrients-3 {
+        font-size: 18px;
+        font-family: YuMincho, serif;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .nutrients-4 {
+        color: #333;
+        font-size: 15px;
+        font-family: YuMincho, serif;
+    }
+
+    .protein {
+        margin: 30px 20px 30px 20px;
+    }
+
+    .lac {
+        margin: 30px 20px 10px 30px;
+    }
+
+    .vam {
+        margin: 30px 20px 10px 30px;
+    }
+
+
+
+
+    .title-2 {
+        background-image: url(images/images9.png);
+        height: 200px;
+        font-family: YuMincho, serif;
+    }
+
+
+
+    .example1 {
+        margin: 40px auto;
+        justify-content: space-between;
+        width: 80%;
+        text-align: center;
+    }
+
+    .example-text {
+        font-family: Lava kannada;
+        font-size: 15px;
+    }
+
+
+    .p1 {
+        margin: 20px 20px;
+    }
+
+    .p2 {
+        margin: 20px 20px;
+    }
+
+    .p3 {
+        margin: 20px 20px;
+    }
+
+
+
+    .point-1 {
+        font-size: 15px;
+        color: #557d3c;
+        font-family: Lava kannada;
+        text-align: center;
+    }
+
+    .point-2 {
+        font-size: 20px;
+        color: #333;
+        font-family: YuMincho, serif;
+        text-align: center;
+    }
+
+    .point-3 {
+        font-size: 15px;
+        color: #333;
+        font-family: YuMincho, serif;
+        text-align: center;
+    }
+
+    .p1-pic {
+        display: none;
+    }
+
+    .p2-pic {
+        display: none;
+    }
+
+    .p3-pic {
+        display: none;
+    }
+
+
+
+    .point1 {
+        width: 80;
+        margin: 0 auto;
+    }
+
+    .point2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .point3 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .title-3 {
+        background-image: url(images/image10.png);
+        height: 200px;
+        font-family: YuMincho, serif;
+    }
+
+    .rcp {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .rcp-text {
+        width: 250px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .rcp-1 {
+        display: flex;
+    }
+
+
+    .title-4 {
+        background-image: url(images/image11.png);
+        height: 200px;
+        font-family: YuMincho, serif;
+    }
+
+    .tips-title {
+        color: #958818;
+        font-size: 20px;
+        font-family: YuMincho, serif;
+    }
+
+    .tips-text {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        color: #333;
+    }
+
+    .convini {
+        margin: 50px auto;
+        display: block;
+    }
+
+    .convini-text {
+        text-align: center;
+        margin: 0 20px;
+        font-family: YuMincho, serif;
+    }
+
+    .convini-pic {
+        padding: auto;
+        width: 200px;
+        margin-left: 60px;
+
+    }
+
+    .rcp-1-pic {
+        margin-left: 150px;
+        align-self: flex-start;
+        width: 300px;
+    }
+
+    .text-zairyo {
+        color: #958818;
+        font-size: 20px;
+        font-family: YuMincho, serif;
+    }
+
+    .zairyo-main {
+        margin-left: 150px;
+    }
+
+
+    .zairyo {
+        font-size: 14px;
+        font-family: YuMincho, serif;
+
+    }
+
+    .houhou-number {
+        color: #958818;
+        font-size: 30px;
+        font-family: YuMincho, serif;
+        margin-top: 50px;
+    }
+
+    .houhou-text {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .houhou-1 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .houhou-2 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .houhou-3 {
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .houhou-pic {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 300px;
+        align-self: flex-start;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .nomal {
+        width: 200px;
+    }
 
 }
