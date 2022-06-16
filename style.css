@@ -40,7 +40,13 @@
         display: flex;
     }
 
+    .menu {
+        display: none;
+    }
 
+    .menu-btn {
+        display: none;
+    }
 
 
     .imgbox {
@@ -982,6 +988,8 @@
         color: #fff;
         font-family: Lava kannada;
         box-sizing: border-box;
+        text-decoration: none;
+        font-weight: bold;
     }
 
 
@@ -996,6 +1004,20 @@
         pointer-events: auto;
         opacity: 1;
     }
+
+    .menu__item a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-family: Lava kannada;
+    }
+
+
+
+
+
+
+
 
 
 }
