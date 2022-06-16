@@ -103,7 +103,7 @@
     }
 
     .dish {
-        width: 300px;
+        width: 250px;
     }
 
 
@@ -118,7 +118,7 @@
     .concept-text {
         font-size: 16px;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 20px;
         font-family: YuMincho, serif;
 
     }
@@ -179,6 +179,18 @@
         text-align: center;
         letter-spacing: 0.2em;
         padding: 10 200 10 200;
+
+    }
+
+    .text-nu {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        color: #333;
+        text-align: center;
+        letter-spacing: 0.2em;
+        margin: 0 150px 0 150px;
+
+
     }
 
     .image6 {
@@ -460,6 +472,16 @@
         margin-top: 50px;
         width: 300px;
         align-self: flex-start;
+    }
+
+    .last-text {
+        background-image: url(images/image37.png);
+        text-align: center;
+        padding: 200px 300px;
+        font-family: Lava kannada;
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
     }
 
     .footer {
@@ -1010,6 +1032,16 @@
         color: #333;
         font-weight: bold;
         font-family: Lava kannada;
+    }
+
+    .last-text {
+
+        text-align: center;
+        padding: 100px 100px;
+        font-family: Lava kannada;
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
     }
 
 
