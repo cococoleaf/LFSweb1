@@ -23,7 +23,7 @@
         margin-top: 45px;
     }
 
-    #nav li {
+    #nav .pc-li {
         width: 150px;
         text-align: center;
         float: left;
@@ -485,9 +485,10 @@
     }
 
     h1 {
-        text-align: center;
+        margin: 0 auto;
         font-family: Lava kannada;
-        margin-top: 50px;
+        font-size: 20px;
+        margin-top: 30px;
     }
 
     #nav {
@@ -496,17 +497,12 @@
         margin-top: 45px;
     }
 
-    #nav li {
-        width: 150px;
-        text-align: center;
-        float: left;
+    #nav .pc-li {
+        display: none;
     }
 
     #nav li a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-        font-family: Lava kannada;
+        display: none;
     }
 
     .header1 {
@@ -521,11 +517,13 @@
     }
 
     .fv1 {
+        margin-top: 50px;
         width: 120px;
         margin-left: 20px;
     }
 
     .fv2 {
+        margin-top: 50px;
         width: 120px;
         margin-left: 20px;
     }
@@ -535,11 +533,12 @@
     }
 
     .textfv {
-        margin-left: 20px;
+        margin-left: 30px;
         float: left;
         font-size: 18px;
         font-family: YuMincho, serif;
         writing-mode: vertical-rl;
+        margin-top: 80px;
 
     }
 
@@ -897,5 +896,106 @@
     .nomal {
         width: 200px;
     }
+
+
+    .menu-btn {
+        cursor: pointer;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #557d3c;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .openbtn span {
+        display: inline-block;
+        transition: all .4s;
+        /*アニメーションの設定*/
+        position: absolute;
+        left: 12px;
+        height: 3px;
+        border-radius: 2px;
+        background: #fff;
+        width: 45%;
+    }
+
+    /*activeクラスが付与されると線が回転して×に*/
+
+    .openbtn.active span:nth-of-type(1) {
+        top: 18px;
+        left: 18px;
+        transform: translateY(6px) rotate(-45deg);
+        width: 30%;
+    }
+
+    .openbtn.active span:nth-of-type(2) {
+        opacity: 0;
+        /*真ん中の線は透過*/
+    }
+
+    .openbtn.active span:nth-of-type(3) {
+        top: 30px;
+        left: 18px;
+        transform: translateY(-6px) rotate(45deg);
+        width: 30%;
+    }
+
+    .openbtn span:nth-of-type(1) {
+        top: 11px;
+    }
+
+    .openbtn span:nth-of-type(2) {
+        top: 20px;
+    }
+
+    .openbtn span:nth-of-type(3) {
+        top: 29px;
+    }
+
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #557d3c;
+    }
+
+    .menu__item {
+        width: 100%;
+        height: auto;
+        padding: .5em 1em;
+        text-align: center;
+        color: #fff;
+        font-family: Lava kannada;
+        box-sizing: border-box;
+    }
+
+
+    .menu {
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .3s linear;
+    }
+
+
+    .menu.is-active {
+        pointer-events: auto;
+        opacity: 1;
+    }
+
 
 }
