@@ -601,11 +601,11 @@
     }
 
     .text-box2 {
-        margin-top: 200px;
+        margin-top: 100px;
         background-image: url(images/image8.png);
-        width: 1000px;
+        width: 320px;
         padding-bottom: 100px;
-        padding-top: 50px;
+        padding-top: 20px;
         margin: auto;
     }
 
@@ -784,9 +784,7 @@
         font-size: 16px;
     }
 
-    .rcp-1 {
-        display: flex;
-    }
+
 
 
     .title-4 {
@@ -826,9 +824,9 @@
     }
 
     .rcp-1-pic {
-        margin-left: 150px;
+        margin-left: 60px;
         align-self: flex-start;
-        width: 300px;
+        width: 200px;
     }
 
     .text-zairyo {
@@ -838,13 +836,16 @@
     }
 
     .zairyo-main {
-        margin-left: 150px;
+        text-align: center
     }
 
 
     .zairyo {
         font-size: 14px;
         font-family: YuMincho, serif;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 30px;
 
     }
 
@@ -852,41 +853,40 @@
         color: #958818;
         font-size: 30px;
         font-family: YuMincho, serif;
-        margin-top: 50px;
+        margin-top: 70px;
+        text-align: center;
     }
 
     .houhou-text {
         font-size: 16px;
         font-family: YuMincho, serif;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .houhou-1 {
-        display: flex;
+
         margin: 50px auto;
         justify-content: space-between;
         width: 90%;
     }
 
     .houhou-2 {
-        display: flex;
         margin: 50px auto;
         justify-content: space-between;
         width: 90%;
     }
 
     .houhou-3 {
-        display: flex;
         margin: 50px auto;
         justify-content: space-between;
         width: 90%;
     }
 
     .houhou-pic {
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: 50px;
-        width: 300px;
+        width: 200px;
         align-self: flex-start;
     }
 
