@@ -594,7 +594,7 @@
     .concept-text {
         font-size: 16px;
         text-align: center;
-        margin: 50px 50px;
+        margin: 50px 10px;
         font-family: YuMincho, serif;
 
     }
@@ -656,8 +656,22 @@
         text-align: center;
         letter-spacing: 0.2em;
         padding: 10 200 10 200;
-        margin: 10px 20px 10px 20px;
+        margin: 10px 10px 10px 10px;
     }
+
+    .text-nu {
+        font-size: 16px;
+        font-family: YuMincho, serif;
+        color: #333;
+        text-align: center;
+        letter-spacing: 0.2em;
+        margin: 0 50px 0 50px;
+
+
+    }
+
+
+
 
     .image6 {
         text-align: center;
